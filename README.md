@@ -23,5 +23,7 @@ On peut déjà observer quelques remarques sur ces photos collectées et sur le 
 ### Clustering
 
 #### K-means avec 20 clusters
+![Imgur](https://i.imgur.com/6AwnoZS.png)
 
 #### Clustering hiérarchique avec 8 mots clés 
+![Imgur](https://i.imgur.com/y1KEi5L.png)
