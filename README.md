@@ -33,5 +33,3 @@ On remarque une grande activité de touristes dans le centre de la ville et dans
 L'intérêt de la partie inférieure du workflow est d’organiser les photos selon leurs motifs respectifs. Pour cela, un processus de​traitement des données textuelles​ et un ​clustering hiérarchique​ est appliqué.
 
 ![Imgur](https://i.imgur.com/y1KEi5L.png)
-
-Dans un premier temps, on remplace les valeurs manquantes par des chaînes de caractères vides, afin de pouvoir ensuite concaténer les colonnes ​tags et ​title​ (les seules colonnes de données textuelles) dans une seule colonne ​tagsTitle​ . Puis on convertie cette colonne String en Document, et on applique un ensemble de manipulations dédiées aux données textuelles : élimination de la ponctuation, élimination des majuscules, ​racinisation​, élimination des ​stop words (mots vides), etc. Ensuite, on extrait les mots clés les plus importants à partir des documents analysés, et on attribue un score pour chaque ligne du jeu données (chaque photo) et chacun des termes détectés. Au final, en se basant sur ces termes les documents sont transformés en vecteurs de document (​document vectors​).
