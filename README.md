@@ -13,7 +13,7 @@ Etant donnée que les données fournies sont brutes, une première étape de net
 
 ## Résultats
 ### Vue globale du workflow
-![Google logo](https://www.google.fr/images/srpr/logo11w.png "google logo")
+
 ### Statistiques
 On peut déjà observer quelques remarques sur ces photos collectées et sur le comportement des touristes aussi. La plupart des photos sont :
 - assez récentes (prises en 2017)
@@ -21,3 +21,7 @@ On peut déjà observer quelques remarques sur ces photos collectées et sur le 
 - prises au milieu du mois, alors que les autres jours du mois connaissent une activité de prise de photo plus ou moins stable et moins forte
 - Prises le lundi ou le dimanche, alors que les autres jours de la semaine connaissent une activité de prise de photo plus ou moins stable et moins forte
 ### Clustering
+
+#### K-means avec 20 clusters
+
+#### Clustering hiérarchique avec 8 mots clés 
