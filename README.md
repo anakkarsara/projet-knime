@@ -9,11 +9,15 @@ Knime est un logiciel de ​data mining disponible gratuitement. Le lien suivant
 La source de données dans cette étude sera un jeu de données contenant une description des photos de Rennes postées sur Flickr. Il s’agit d’une large collection de photographies géolocalisées. Chaque photo est décrite comme un tuple : ​(id photo, id photographer, latitude, longitude, tags, title/description, dates)​.
 
 ## Nettoyage de données
-Etant donnée que les données fournies sont brutes, une première étape de nettoyage est indispensable, afin d’éviter de travailler sur des données trompeuses. Pour faire cela, nous avons appliqué un noeud ​«GroupBy» ​sur la totalité des colonnes du jeu de données. Par conséquent nous avons pu éliminer un grand nombre de lignes dupliquées. Au départ, nous avions 54800 lignes, après l’élimination de doublons le jeu de données ne comporte maintenant que 4195 lignes.
+Etant donnée que les données fournies sont brutes, une première étape de nettoyage est indispensable, afin d’éviter de travailler sur des données trompeuses. Pour faire cela, il faut appliquer un noeud ​«GroupBy» ​sur la totalité des colonnes du jeu de données. Par conséquent, un grand nombre de lignes dupliquées ont été éliminées. Au départ, on avait 54800 lignes, après l’élimination de doublons le jeu de données ne comporte maintenant que 4195 lignes.
 
 ## Résultats
+### Vue globale du workflow
+![Google logo](https://www.google.fr/images/srpr/logo11w.png "google logo")
+### Statistiques
 On peut déjà observer quelques remarques sur ces photos collectées et sur le comportement des touristes aussi. La plupart des photos sont :
 - assez récentes (prises en 2017)
 - prises pendant le 1er trimestre de l’année, plus précisément en mois de mars
 - prises au milieu du mois, alors que les autres jours du mois connaissent une activité de prise de photo plus ou moins stable et moins forte
 - Prises le lundi ou le dimanche, alors que les autres jours de la semaine connaissent une activité de prise de photo plus ou moins stable et moins forte
+### Clustering
