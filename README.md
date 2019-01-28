@@ -13,7 +13,7 @@ Etant donnée que les données fournies sont brutes, une première étape de net
 
 ## Résultats
 ### Vue globale du workflow
-
+[Imgur](https://i.imgur.com/pf1ZoD8.png)
 ### Statistiques
 On peut déjà observer quelques remarques sur ces photos collectées et sur le comportement des touristes aussi. La plupart des photos sont :
 - assez récentes (prises en 2017)
