@@ -4,3 +4,6 @@ Rennes Métropole souhaite améliorer l’expérience des touristes à Rennes en
 
 ## Outil utilisé : Knime
 Knime est un logiciel de ​data mining disponible gratuitement. Le lien suivant https://www.knime.org/downloads/overview permet le téléchargement de ce logiciel. Cela demande d’abord une inscription, ensuite tous les installes des différents systèmes d’exploitation sont fournis. Le site officiel de Knime offre une ​documentation assez complète et des ​cours en ligne​ très utiles.
+
+## Données utilisées
+Notre source de données dans cette étude sera un jeu de données contenant une description des photos de Rennes postées sur Flickr. Il s’agit d’une large collection de photographies géolocalisées. Chaque photo est décrite comme un tuple : ​(id photo, id photographer, latitude, longitude, tags, title/description, dates)​.
